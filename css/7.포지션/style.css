@@ -46,6 +46,7 @@ header p {
 }
 
 .sidebar {
+  position: relative;
   width: 34%;
   float: left;
   background-color: #e5e9dc;
