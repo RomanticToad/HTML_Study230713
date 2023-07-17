@@ -1,6 +1,5 @@
 h1 {
-    /* 주석 컨트롤 슬래시... 이탤릭은 기울어진 폰트 */
-    
-    font-style: italic;
-    font-size: 50px;
+  /* 주석 컨트롤 슬래시... 이탤릭은 기울어진 폰트 */
+  font-style: italic;
+  font-size: 50px;
 }
