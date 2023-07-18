@@ -3,14 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>폼 스타일</title>
+    <title>폰트와 텍스트</title>
+
+    <!-- 폰트링크 -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap"
+      rel="stylesheet"
+    />
     <style>
+      /* import 를 통해서 폰트변경 */
+      /* @import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap");
       html {
         background-color: #869960;
-      }
-
+      } */
+      @import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Nanum+Gothic+Coding&display=swap");
       body {
-        font-family: Tahoma, sans-serif;
+        /* font-family: "맑은 고딕", 돋움, 굴림, sans-serif; */
+        /* 구글폰트에서 가져온 폰트 적용. */
+        /* font-family: "Gowun Batang", serif; */
+        /* font-family: "Nanum Gothic Coding", monospace; */
+        font-family: "Diphylleia", serif;
         font-size: 87%;
       }
 
@@ -32,6 +52,7 @@
       header {
         padding-top: 20px;
         color: #617140;
+        font-family: "Diphylleia", serif;
       }
 
       header h1 {
@@ -195,15 +216,15 @@
   <body>
     <div class="container">
       <header>
-        <h1>Website Title</h1>
-        <p>Website slogan included here.</p>
+        <h1>웹사이트 제목</h1>
+        <p>웹사이트 설명하는 내용!</p>
 
         <nav class="site-nav">
           <ul class="group">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">홈</a></li>
+            <li><a href="#">어바웃</a></li>
+            <li><a href="#">포트폴리오</a></li>
+            <li><a href="#">연락처</a></li>
           </ul>
         </nav>
       </header>
@@ -213,10 +234,14 @@
           <h2>Main Column Heading</h2>
 
           <p>
-            This is the main area (or column). Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex.
+            서동옥서동옥 서동옥 서동옥 서동옥 서동옥 서동옥 서동옥 서동옥 서동옥
+            서동옥 서동옥 서동옥 서동옥 서동옥 서동옥 서동옥 서동옥 서동옥
+            서동옥 서동옥 서동옥 서동옥 서동옥 서동옥 서동옥 서동옥 서동옥
+            서동옥 서동옥 서동옥 This is the main area (or column). Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex.
           </p>
           <!-- 폼 입력했음. -->
           <form>
