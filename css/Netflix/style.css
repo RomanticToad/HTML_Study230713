@@ -24,6 +24,7 @@ body::before {
   background-size: cover;
 }
 nav {
+  /* 위치고정 */
   position: fixed;
   padding: 25px 60px;
   z-index: 1;
@@ -153,4 +154,25 @@ form .form-help :where(label, a) {
 
 .form-wrapper small a {
   color: #0071eb;
+}
+.form-wrapper :where(label, p, small, a) {
+  color: #b3b3b3;
+}
+
+form .form-help {
+  display: flex;
+  justify-content: space-between;
+}
+
+form .remember-me {
+  display: flex;
+}
+
+form .remember-me input {
+  margin-right: 5px;
+  accent-color: #b3b3b3;
+}
+
+form .form-help :where(label, a) {
+  font-size: 0.9rem;
 }
