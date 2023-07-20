@@ -1,0 +1,45 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+/* 이미지 갤러리 스타일링 */
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gallery .images {
+  gap: 15px;
+  max-width: 85%;
+  margin: 40px 0;
+  /* 갤러리를 a 줄로 사진가로사이즈 b 픽셀 */
+  columns: 5 310px;
+  list-style: none;
+}
+.gallery .images .img {
+  display: flex;
+  cursor: pointer;
+  /* 원래 사이즈를 넘어가면 넘어간 부분이 안보이게 */
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 14px;
+  border-radius: 10px;
+}
+.gallery .images img {
+  width: 100%;
+  /* 변하는데 걸리는 시간 */
+  transition: transform 0.3s ease;
+}
+
+.gallery .images .img:hover img {
+  /* 마우스 올리면 변하는 방식 */
+  transform: scale(1.5);
+}
